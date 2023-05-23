@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Bruno+Ace+SC&family=Instrument+Serif&family=Lato&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -45,6 +48,8 @@ header{
     background-color: #66C7F4;
 }
 
+
+
 nav a:hover {
     background-color: #59C3C3;
     color: #757780;
@@ -61,8 +66,17 @@ nav a:hover {
     color: #274690;
 }
 
+.home-title {
+    color: #001011;
+    font-family:Papyrus, Aleo, Monaco;
+}
+
 .msg {
     background-color: #12664F;
+}
+
+.msg h2 {
+    font-family: Lato, Bruno Ace SC, Instrument Serif;
 }
 
 footer {
@@ -82,10 +96,6 @@ footer a:hover{
 footer p{
     font-size: 1.2em;
     text-decoration: underline;
-}
-
-.home-title {
-    color: #001011;
 }
 
 h4 {
