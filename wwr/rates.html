@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/rates.css">
+    <title>Swirl and Swish | Your experiences</title>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="./images/logo.png" alt="Swirl and Swish logo">
+        </a>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./rates.html">Your experiences</a>
+            <a href="./site-plan-rafting.html">Site Plan</a>
+            <a href="./contactus.html">Contact Us</a>
+        </nav>
+    </header>
+<div class="grid-template">
+    <div class="marketing-photo">
+        <img src="./images/rafting.jpg" alt="people enjoying rafting">
+    </div>
+    <div class="form-box">
+        <h1>We want to hear about your adventure!</h1>
+        <form action="process_survey.php" method="POST">
+          <label class="name_label" for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+      
+          <label class="visit_label" for="visit-date">Visit Date:</label>
+          <input type="date" id="visit-date" name="visit-date" required><br><br>
+      
+          <label class="experience_label" for="experience">Describe your experience:</label><br>
+          <textarea id="experience" name="experience" rows="4" cols="50" required></textarea><br><br>
+      
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating" required>
+            <option value="1">1 star</option>
+            <option value="2">2 stars</option>
+            <option value="3">3 stars</option>
+            <option value="4">4 stars</option>
+            <option value="5">5 stars</option>
+          </select><br><br>
+      
+          <input type="submit" value="Submit">
+        </form>      
+    </div>
+</div>
+    <footer>
+        <p>Swirl and Swish &copy; 2023 - Pablo Toloza</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img class="fb_icon" src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img class="tw_icon" src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img class="ig_icon" src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
