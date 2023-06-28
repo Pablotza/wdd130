@@ -79,7 +79,30 @@ nav a:hover {
     font-size: 1.2rem;
   }
 
-  
+.people_rate_background {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #66C7F4;
+    grid-column: 1/11;
+    grid-row: 4/4;
+}
+
+.opinion_message{
+    background-color: white;
+    grid-row: 4/4;
+    grid-column: 2/5;
+    z-index: +1;
+    width: 40%;
+    height: 35%;
+    text-align: center;
+    align-self: center;
+}
+
+.opinion_img{
+    grid-column: 5/11;
+    grid-row: 4/4;
+}
+
 footer {
     background-color: #66C7F4;
     padding: 25px 50px;
@@ -132,5 +155,15 @@ footer .social img{
     }
     footer {
         margin-top: 25px;
+    }
+    .marketing-photo img{
+        display: block;
+        width: 220px;
+        height: 200px;
+    }
+    .form-box {
+        display: block;
+        width: 60%;
+        height: 60%;
     }
 }
